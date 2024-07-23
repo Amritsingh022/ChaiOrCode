@@ -1,0 +1,36 @@
+//singleton  hmesha constructor se bnega
+//Object.create  made through constructor singleton
+
+
+//object literals
+
+const mySym = Symbol("key1")
+const Jsuser={
+    [mySym]:"mykey1",
+    name:"Amrit", 
+    "full name":"Amrit Singh saini",                             //name=key hai,,,"Amrit=value haii"
+    age: 23,
+    location:"Noida",
+    email:"amritsaini0275@gmail.com",
+    isloggedIn:false,
+    lastLoginDays:["Monday","Saturday"]
+}
+//console.log(Jsuser.email)
+//console.log(Jsuser["email"])
+//console.log(Jsuser["full name"])
+//console.log(Jsuser[mySym])
+
+Jsuser.email="Amrisaini0275@gmail.com"
+//Object.freeze(Jsuser)
+Jsuser.email="Amrit45465@gmail.com"
+//console.log(Jsuser)
+
+Jsuser.greeting= function(){
+    console.log("hello java script")
+}
+
+Jsuser.greetingTwo=function(){
+    console.log(`hello Amrit,${this.age}`)
+}
+console.log(Jsuser.greeting())
+console.log(Jsuser.greetingTwo())
