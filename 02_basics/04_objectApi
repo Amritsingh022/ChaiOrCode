@@ -1,0 +1,17 @@
+const course ={
+    coursename: "jshindi",
+    price:"986",
+    courseInstructor:"Amrit"
+}
+
+
+//course.courseInstructor
+//console.log(course)
+const{courseInstructor:instructor}=course        // to destruct the object
+console.log(instructor)    
+
+
+
+const navbar=  ()  => {
+    
+}
