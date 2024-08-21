@@ -1,0 +1,38 @@
+// // const useremail=[]
+
+// // if(useremail){
+// //     console.log("Got an eamil");
+// // }
+// // else{
+// //     console.log("Not got an email")
+// // }
+
+// //falsi values->
+// // false,0,-0,BigInt 0n,"",null,undefined,NaN 
+
+
+// //truthi values
+// // true,"0",'flase'," ",[],{},function(){}
+
+
+// // if(useremail.length==4){
+// //     console.log("Array is empty")
+// // }
+
+// //  const emptyobject={}
+// //  if(Object.keys(emptyobject).length===5){  //here the array is formed keys name ka or return krega array 
+// //     console.log("object is empty")
+// //  } 
+
+// // nullish coalescing operator(??)-> used for null undefined
+// //let val1=5 ?? 10;
+// //let val1 =null??10
+// // let val1=undefined??15
+// //let val1=null??undefined
+// let val1=null??10??15
+// console.log(val1)
+
+//terniary operator 
+//condition?true :false
+const iceteaprice=100
+iceteaprice<=80 ? console.log("less than 80"): console.log("more than 80")

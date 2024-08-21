@@ -1,0 +1,43 @@
+//  const coding=["js","ruby","CPP","java"]
+
+//  const value=coding.forEach((item)=> {
+//    // console.log(item)
+//    // return value
+//  })
+//  console.log(value)
+  
+
+const mynums=[1,2,3,4,5,6,7,8,9,10]
+
+// const newnums=mynums.filter((nums)=> {
+//    return nums > 4
+// })
+
+// const newarr=[]
+// mynums.forEach((num)=>{
+//     if(num>4){
+//         newarr.push(num)
+//     }
+// })
+
+// console.log(newarr);
+
+
+
+const books=[
+    { tittle:'Book One', genre: 'history' , publish:1981, edition:1981 },
+    { tittle:'Book Two', genre: 'science' , publish:1951, edition:1992 },
+    { tittle:'Book Three', genre: 'history' , publish:1881, edition:1999 },
+    { tittle:'Book Four', genre: 'Fiction' , publish:1881, edition:1989 },
+    { tittle:'Book Five', genre: 'history' , publish:1681, edition:2004 },
+    { tittle:'Book Six', genre: 'economics' , publish:1381, edition:2010 },
+    { tittle:'Book Seven', genre: 'Fiction' , publish:2011, edition:1985 },
+    { tittle:'Book Eight', genre: 'science' , publish:1881, edition:1904 },
+    { tittle:'Book Nine', genre: 'history' , publish:1981, edition:1994 },
+]
+
+let userBooks=books.filter((bk)=>bk.genre==='history')
+ userBooks=books.filter((bk)=> { 
+    return bk.publish>=1881 &&bk.genre==='history' 
+})
+console.log(userBooks)

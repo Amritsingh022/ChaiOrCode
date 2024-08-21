@@ -1,0 +1,22 @@
+ const week="wed"
+
+ switch (week) {
+    case "mon":
+      console.log("Monday");
+        break;
+ 
+    case "tue":
+        console.log("tuesday")
+        break;
+
+        case "wed":
+            console.log("wednesday")
+            break;
+
+            case "thur":
+                console.log("thursday")
+                break;
+    default:
+        console.log("Default matched")
+        break;
+ }
