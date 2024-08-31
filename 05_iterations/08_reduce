@@ -1,0 +1,33 @@
+const mynums=[1,2,3]
+                                                  
+// const mytotal=mynums.reduce(function (acc,currval){     //accumulator ek variable hai jisme initial value+current value hogi
+//     console.log(`acc:${acc} and currentvalue:${currval}`)
+//     return acc+currval
+// },0)                                                     //0 initial value hai
+
+
+
+
+const mytotal=mynums.reduce( (acc,curr) => (acc+curr),0)
+console.log(mytotal);
+
+const shoppingcart=[
+    { 
+        itemname: "jscouse",
+        price: 299
+    },
+
+    {
+        itemname: "pycourse",
+        price:499
+    },
+
+    {
+        itemname: "javacourse",
+        price:999
+    }
+]
+
+
+const pricetopay=shoppingcart.reduce((acc,item)=> acc+item.price,0)
+console.log(pricetopay)
