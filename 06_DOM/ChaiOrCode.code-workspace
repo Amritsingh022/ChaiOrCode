@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5503,
+		"liveServer.settings.useLocalIp": true,
+		"liveServer.settings.multiRootWorkspaceName": "ChaiOrCode"
+	}
+}

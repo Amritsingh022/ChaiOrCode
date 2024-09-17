@@ -1,0 +1,29 @@
+// const user={
+//     username:"Amrit",
+//     loginCount:8,
+//     signedIn:true,
+
+//      getUserdetails:function(){
+//         //console.log("got user name in the database")
+//         // console.log(`Username ${this.username}`)
+//         console.log(this)
+//     }
+// }
+// console.log(user.username)
+// console.log(user.getUserdetails())
+
+
+function ser(username,logincount,isLoggedIn){
+ this.username=username
+ this.logincount=logincount
+ this.isLoggedIn=isLoggedIn
+
+ return this
+}
+                                      
+const userOne=new User("Amrit",10,true)          //here 1.)new makes the new object (copy) 
+const userTwo=new User("Chaiorcode",14,false)    //2.)Saare argumens aajayenge
+console.log(userOne)                             //3.)this k andr add hojayenge
+//console.log(this)                              //4.)function k andr miljayega
+console.log(userTwo)
+
